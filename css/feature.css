@@ -1,0 +1,38 @@
+.feature {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-left: 90px;
+    margin-right: 30px;
+    padding-top: 150px;
+    height: 100%;
+    width: 100%;
+    max-width: 750px;
+
+}
+
+.feature--icon {
+
+    width: 67px;
+    height: 67px;
+    margin-bottom: 20px;
+}
+
+.feature--title {
+
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.feature--description {
+    
+
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #848484;
+}

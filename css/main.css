@@ -1,0 +1,32 @@
+@font-face {
+
+   font-family: Exo2Regular;
+    src: url('../fonts/Exo2Regular.ttf');
+}
+
+html {
+    display: flex;
+    font-family: Exo2Regular ;
+}
+
+body{
+    margin: 0;
+    width: 100%;
+}
+
+h2, h3, h1 , h4 p {
+
+margin: 0;
+font-weight: normal;
+
+}
+
+.rowlist {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    margin: 85px;
+    
+}
+

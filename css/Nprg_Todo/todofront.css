@@ -1,0 +1,94 @@
+
+.twoinone{
+
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-inline-start: 1rem; 
+    grid-template-rows: 20px;
+    padding-top: 70px;
+    height: 638%;
+    width: 100%;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: bottom;
+   background-color: grey;
+   background-size: 100% 100%;
+
+ 
+}
+
+
+
+.tbl_container{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-inline-start: 1rem; 
+    grid-template-rows: 20px;
+    padding-top: 70px;
+    width: 100%;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: bottom;
+    
+ 
+}
+
+.addtext{
+    font-size: larger; 
+    margin-top: 30px;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-gap: 1rem;
+    padding-top: 20px;
+   
+    
+}
+
+.buttons--ready{
+
+    background-color: green;
+   
+  
+}
+
+.buttons--waiting{
+    background-color: yellow;
+}
+
+.buttons--goodnews{
+
+    background-color: rgb(12, 91, 238);
+}
+
+.buttons--allin{
+
+    background-color: rgb(117, 145, 150);
+}
+
+.tbl{
+
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+        
+}
+
+/* .deletebutton{
+    background-color: red;
+} */
+
+    table, th, td {
+        border: 0.1px solid black;
+      
+        
+      }

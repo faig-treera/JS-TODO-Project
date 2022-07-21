@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/Nprg_Todo/todofront.css">
+</head>
+
+<body>
+
+  <div class="twoinone">
+ 
+   <div>
+    <h1><b>Todo LIST</b></h1>
+   </div> 
+    <div><input class="addtext" id="todoTitle" type="text" placeholder="What you want?"></div>
+
+
+    <div class="buttons">
+      <button class="buttons--ready" onclick="Newtask(document.getElementById('todoTitle').value)">Add</button>
+      <!-- <button class="buttons--badnews">Return</button> -->
+      <button class="buttons--goodnews" onclick="CompleteTaskList(1)">Completes</button>
+      <button class="buttons--waiting" onclick="CompleteTaskList(0)">Uncompletes</button>
+      <button class="buttons--allin" onclick="AllList()">ALL</button>
+    </div>
+
+    <div class="tbl_container">
+
+
+      <div class="tbl">
+
+        <table id="taskTbl">
+          <thead>
+            <tr>
+              <td colspan="6"><h2><b>My List</b> </h2></td>
+            </tr>
+            <tr>
+              <th></th>
+              <th>ID</th>
+              <th>TITLE</th>
+              <th>DATE</th>
+              <th>ISDONE</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="tbl_id">
+          </tbody>
+        </table>
+
+      </div>
+
+  
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="../js/Todo.js"></script>
+  <script type="text/javascript" src="../js/TodoList.js"></script>
+  <script type="text/javascript" src="../js/main.js"></script>
+</body>
+
+</html>
